@@ -1,9 +1,8 @@
 body {
   align-items: center;
   justify-content: center;
-  background: #ddd;
   min-height: 100vh;
-  padding: 30px;
+  padding-top: 30px;
   text-align: center;
   background-color: #333;
 }
@@ -44,6 +43,7 @@ body {
 
 
 .cards img {
+  padding-top: 15px;
   max-width: 50vw; 
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
@@ -62,14 +62,12 @@ body {
 @media (max-width: 700px){
   .cards img {
     
-    /* max-width: 500px; */
   }
 }
 
 @media (max-width: 500px){
   .cards img {
-    width: 350px;
-    min-width: unset;
+    min-width: 90vw;
   }
 
   .cards img.rotate-90 

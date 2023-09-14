@@ -22,15 +22,7 @@
         min-width: 100vw;
     }
 
-    .container .card_block .card {
-        background-image: url(../images/linPayCard.png);
-        width: 330px;
-        height: 200px;
-        background-repeat: round;
-        background-size: contain;
-        margin: 0 auto;
-    }
-
+    
   
 
     .container .block .item {

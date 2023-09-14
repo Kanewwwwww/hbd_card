@@ -16,7 +16,7 @@ $(function () {
       var _oldPictureCount = 0;
       var _draw = [];
       var cardloading = function (fun, time) {
-        debugger
+        
        
         $(".cake").show();
         $(".cards").hide();
@@ -85,11 +85,11 @@ $(function () {
 
     function eventBind(){
         $(" .pick").bind("click", function (e) {
-            debugger;
+            ;
             drawCard();
           });
           $(" .card_Reflash").bind("click", function (e) {
-            debugger
+            
             // recovery();
             location.reload();
           });
