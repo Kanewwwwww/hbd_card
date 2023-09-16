@@ -1,17 +1,23 @@
 $(function () {
     var _picture = [
-        { url: "images/妍狄.JPG",name:'妍狄'},
-        { url: "images/宜君.JPG",name:'宜君'},
-        { url: "images/思庭.JPG",name:'思庭'},
-        { url: "images/佩青.JPG",name:'佩青'},
-        { url: "images/煉英.JPG",name:'煉英'},
-        { url: 'images/承恩.JPG',name:'承恩'},
-        { url: 'images/文楷-果實.JPG',name:'文楷-多結果子'},
-        { url: 'images/文楷-河岸.JPG',name:'文楷-河岸'},
-        { url: 'images/文楷-星空.JPG',name:'文楷-好運繁星'},
-        { url: 'images/念佳-小天使.JPG',name:'念佳-有天使在幫助你'},
-        { url: 'images/念佳-小星星.JPG',name:'念佳-你是快樂的星星'},
-        { url: 'images/念佳-小燈籠.JPG',name:'念佳-心存希望'}
+      { url:'images/860770.jpg',name:''},
+      { url:'images/S__119734283_0.jpg',name:''},
+      { url:'images/S__119734289_0.jpg',name:''},
+      { url:'images/860775.jpg',name:''},
+      { url:'images/S__119734284_0.jpg',name:''},
+      { url:'images/S__119734291_0.jpg',name:''},
+      { url:'images/S__119734278_0.jpg',name:''},
+      { url:'images/S__119734285_0.jpg',name:''},
+      { url:'images/S__119734292_0.jpg',name:''},
+      { url:'images/S__119734280_0.jpg',name:''},
+      { url:'images/S__119734286_0.jpg',name:''},
+      { url:'images/S__119734293_0.jpg',name:''},
+      { url:'images/S__r119734281_0.jpg',name:''},
+      { url:'images/S__119734287_0.jpg',name:''},
+      { url:'images/S__119734294_0.jpg',name:''},
+      { url:'images/S__119734282_0.jpg',name:''},
+      { url:'images/S__119734288_0.jpg',name:''},
+      { url:'images/S__119734295_0.jpg',name:''}
       ];
       var _oldPictureCount = 0;
       var _draw = [];
@@ -71,8 +77,8 @@ $(function () {
             let y = e.clientY - e.target.offsetTop;
     
             let ripples = document.createElement('span');
-            ripples.style.left = x + 'px';
-            ripples.style.top = y + 'px';
+            ripples.style.left = x +'px';
+            ripples.style.top = y +'px';
             this.appendChild(ripples);
     
             setTimeout(() => {
